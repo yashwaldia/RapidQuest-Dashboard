@@ -1,4 +1,4 @@
-// bNavbar.js
+// BNavbar.js
 
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,10 +8,10 @@ import {
   faFile,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import "../bnav/bNavbar.css";
+import "../bnav/BNavbar.css";
 // import logo from "../components/logo.jpg";
 
-const bNavbar = ({ onToggleSideNav }) => {
+const BNavbar = ({ onToggleSideNav }) => {
   const [screenWidth, setScreenWidth] = useState(0);
 
   const handleResize = () => {
@@ -54,4 +54,4 @@ const NavItem = ({ icon, text }) => (
   </li>
 );
 
-export default bNavbar;
+export default BNavbar;
