@@ -1,0 +1,78 @@
+.wrapper {
+  height: 100vh;
+  /* background-color: red; */
+}
+.box1 {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  /* width: fit-content; */
+  padding: 15px;
+}
+.box1 h2 {
+  margin-top: 5px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info h4 {
+  /* width: fit-content; */
+  margin-bottom: 2px;
+}
+.inputt {
+  display: flex;
+  justify-content: space-between;
+}
+.head {
+  margin-bottom: 0px;
+}
+.update-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 15vw;
+  background-color: #5034fc; /* Set the desired color code */
+  color: #fff; /* Set text color to white or another readable color */
+  padding: 13px; /* Add padding for better aesthetics */
+  border: none; /* Remove default button border */
+  cursor: pointer;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+}
+.link {
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+.line-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px;
+}
+
+.vertical-line {
+  height: 100px;
+  border-left: 2px solid #5034fc; /* Adjust color and thickness as needed */
+  margin-right: 10px; /* Adjust the margin to control the space between the line and the text */
+}
+
+.text-container {
+  max-width: 400px; /* Set the maximum width of the text container */
+}
+.text-container h4 {
+  color: #bebebe;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.link2 {
+  font-weight: 600;
+  text-align: left;
+  padding-top: 5px;
+}

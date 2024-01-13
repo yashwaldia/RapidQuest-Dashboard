@@ -1,0 +1,130 @@
+.sidenav {
+  background: white;
+  transition: all 0.5s ease;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  /* position: absolute; */
+  width: 5rem;
+  height: 100vh;
+  /* box-shadow: 0.03rem 0.063rem 1rem 0 #8690a3; Adjusted box shadow values */
+  /* border: 1px solid #ccc; Added border */
+  border-radius: 0.625rem; /* Added border-radius for curved corners */
+}
+
+.sidenav .logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0.938rem 0.938rem 0 0.938rem;
+  width: 100%;
+}
+
+.sidenav .logo {
+  background: #fff;
+  text-align: center;
+  width: 3rem;
+  min-width: 3rem;
+  border-radius: 0.313rem;
+  padding: 0.313rem;
+  font-size: 24px;
+  font-weight: 900;
+  cursor: pointer;
+  border: none;
+}
+
+.sidenav .logo-text {
+  margin-left: 1.5rem;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.sidenav .btn-close {
+  margin-left: auto;
+  cursor: pointer;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}
+
+.sidenav .btn-close .fa-times {
+  color: #fff;
+  font-size: 24px;
+}
+
+.sidenav-collapsed {
+  width: 14.2625rem;
+}
+
+.sidenav-nav {
+  list-style: none;
+  padding: 0.938rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100% - 3.65rem);
+  cursor: pointer;
+}
+
+.sidenav-nav .sidenav-nav-item {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.sidenav-nav .sidenav-nav-item .sidenav-nav-link {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  color: #f3f3f3;
+  text-decoration: none;
+  border-radius: 0.625rem;
+  transition: all 0.3s ease;
+}
+
+.sidenav-nav .sidenav-nav-item .sidenav-nav-link .sidenav-link-icon {
+  font-size: 22px;
+  width: 2rem;
+  min-width: 2rem;
+  margin: 0 0.5rem;
+  text-align: center;
+  color: #bebebe; /* Set the initial color to light gray */
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.sidenav-nav .sidenav-nav-item:hover .sidenav-nav-link,
+.sidenav-nav .sidenav-nav-item:hover .sidenav-nav-link .sidenav-link-icon,
+.sidenav-nav .sidenav-nav-item:hover .sidenav-nav-link .sidenav-link-text {
+  color: white; /* Set both the icon and text color to white on hover */
+}
+
+.sidenav-nav .sidenav-nav-item .sidenav-nav-link .sidenav-link-text {
+  margin-left: 1.5rem;
+  color: #000;
+}
+
+.sidenav-nav .sidenav-nav-item:hover {
+  background-color: #5034fc;
+  color: white;
+}
+
+.active .sidenav-link-icon,
+.active .sidenav-link-text {
+  color: #5034fc;
+}
+.sidenav-nav .sidenav-nav-item:last-child {
+  margin-top: auto;
+}
+.sidenav-nav .sidenav-nav-item:nth-last-child(2) {
+  order: 1;
+  margin-bottom: 2rem; /* Adjust the margin as per your preference */
+  /* Set the order to move it to the bottom */
+}
+
+@media only screen and (max-width: 1000px) {
+  .sidenav {
+    display: none;
+  }
+}

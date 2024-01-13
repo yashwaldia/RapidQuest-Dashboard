@@ -1,0 +1,112 @@
+.maindiv {
+  display: grid;
+  text-align: left;
+}
+.maindiv {
+  display: grid;
+}
+.goal {
+  display: flex;
+  width: 100%;
+}
+.income h4 {
+  color: #5034fc;
+  font-size: 15px;
+  margin: 0px;
+}
+.income h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.goal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goals {
+  padding-right: 2vw;
+  flex: 1;
+}
+.goalsp {
+  /* width: 28vw; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goals:nth-child(2),
+.goals:nth-child(3) {
+  width: 20vw;
+}
+.goals h1 {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 27px;
+}
+.goals h4 {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #bebebe; /* Set the initial color to light gray */
+}
+.goals hr {
+  width: 100%;
+  border-color: #5034fc;
+}
+.list hr {
+  width: 100%;
+}
+.peers {
+  display: grid;
+  margin-top: -2vh;
+}
+.peers h3 {
+  margin-bottom: 5px;
+}
+.peers h4 {
+  font-size: 12px;
+  color: #bebebe; /* Set the initial color to light gray */
+  /* margin-top: 0px; */
+}
+.data {
+  display: flex;
+  /* background-color: #5034fc; */
+  margin-top: -1vh;
+}
+.drop {
+  display: grid;
+  padding-top: 1vh;
+  /* background-color: green; */
+}
+.list {
+  /* padding: 1vh 0.5vw; */
+  justify-content: space-between;
+  /* margin-top: -0.4vh; */
+}
+.list p {
+  font-size: 10px;
+  display: inline-block;
+}
+.graph {
+  justify-content: center;
+  /* background-color: black; */
+  margin-top: -1.4vh;
+}
+.reactgraph h4 {
+  margin-top: 0px;
+}
+.circles {
+  display: flex;
+  flex: 1;
+}
+.circless {
+  flex: 1;
+  padding: 1vh 1vw;
+
+  /* background-color: aquamarine; */
+}
+.circless h4 {
+  text-align: center;
+  color: black;
+  opacity: 0.6;
+}
