@@ -5,7 +5,8 @@ Welcome to the RapidQuest Dashboard repository! This dashboard app provides a co
 ## Screenshots
 
 ### Desktop View
-![Desktop View](https://github.com/yashwaldia/RapidQuest-Dashboard/assets/115491299/2afce1dc-4cc7-45a3-ad0f-6adda5dbfa26)
+![Desktop View](https://github.com/yashwaldia/RapidQuest-Dashboard/assets/115491299/73c7a550-c815-409e-9d91-ea97836e3a36)
+)
 
 ### Mobile View
 <img src="https://github.com/yashwaldia/RapidQuest-Dashboard/assets/115491299/4416494c-c5d6-4a63-9449-af5d670771a1" alt="Mobile View" width="300">
